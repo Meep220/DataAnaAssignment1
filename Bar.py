@@ -28,9 +28,9 @@ for container, response_type in zip(bars.containers, pivot_df.columns):
                     ha='center', va='center', fontsize=12, color='white', fontweight='bold')
 
 # Customizing the plot to match the reference image
-plt.xlabel("X-LABELS", fontsize=12, fontweight="bold")
-plt.ylabel("Y-LABELS", fontsize=12, fontweight="bold")
-plt.title("TITLE OF PLOT HERE", fontsize=14, fontweight="bold")
+plt.xlabel("LABELS", fontsize=12, fontweight="bold")
+plt.ylabel("COUNT", fontsize=12, fontweight="bold")
+plt.title("Horizontal Stacked Bar Chart", fontsize=14, fontweight="bold")
 
 # Adjust legend to match placement and format
 legend = plt.legend(title="LEGEND HERE", loc="upper left", fontsize=12, title_fontsize=12)
